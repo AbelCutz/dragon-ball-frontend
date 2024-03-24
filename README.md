@@ -10,9 +10,9 @@ This application offers an interactive search engine for DragonBallZ charaters, 
 
 ## Technologies
 
-React
-BEM methology
-DragonBallZ API
+.React
+.BEM methology
+.DragonBallZ API
 
 ## Key Features
 
