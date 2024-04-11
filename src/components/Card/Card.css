@@ -1,0 +1,50 @@
+.card__arrow-container {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 999;
+  font-family: "Cabinet Grotesk Medium";
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  overflow: hidden;
+}
+
+.character__card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 300px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: #f9f9f9;
+}
+
+.character__card img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+.character__card h2,
+.character__card p {
+  margin: 5px 0;
+  font-size: 16px;
+}
+
+.card__arrow-btns {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.card__arrow-btns label {
+  margin-right: 5px;
+}

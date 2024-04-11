@@ -1,0 +1,41 @@
+.search-bar {
+  margin-left: 25px;
+}
+
+.search-bar__input {
+  font-family: "Cabinet Grotesk Medium";
+  width: 140px;
+  height: 30px;
+  outline: none;
+  border-radius: 10px 0 0 10px;
+  border: 1px solid rgba(246, 110, 7, 0.1);
+}
+
+.search-bar__input::placeholder {
+  padding-left: 10px;
+  font-size: 14px;
+}
+
+.search-bar__btn {
+  font-family: "Cabinet Grotesk Medium";
+  background-color: #ff8000;
+  height: 34px;
+  border-radius: 0 10px 10px 0;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  color: #fff;
+  font-weight: 900;
+  cursor: pointer;
+}
+
+.search-bar__btn:hover {
+  color: #0a0909;
+  transition: 0.3s ease-out;
+}
+@media screen and (max-width: 600px) {
+  .search-bar {
+    margin: 0;
+  }
+  .search-bar__input {
+    width: 120px;
+  }
+}

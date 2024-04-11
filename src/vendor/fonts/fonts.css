@@ -1,0 +1,17 @@
+@font-face {
+  font-family: "Cabinet Grotesk Bold";
+  src: url(../fonts/CabinetGrotesk-Bold.woff);
+}
+
+@font-face {
+  font-family: "Cabinet Grotesk Medium";
+  src: url(../fonts/CabinetGrotesk-Medium.woff);
+}
+@font-face {
+  font-family: "Cabinet Grotesk Regular";
+  src: url(../fonts/CabinetGrotesk-Regular.woff);
+}
+@font-face {
+  font-family: "Saiyan-Sans";
+  src: url(../fonts/Saiyan-Sans.ttf);
+}
